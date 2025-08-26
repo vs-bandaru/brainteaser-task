@@ -1,5 +1,5 @@
 # Brain Teaser - A Novel Task Defying Common Sense
-Authors: Vagdevi Sahasra Bandaru, Devika Tiwari, Bake Wang
+Authors: Vagdevi Sahasra Bandaru, Devika Tiwari, Blake Wang
 
 ## Introduction
 This is the github repo for our ENLP course project. We used 4 models: Canine, T5, BERT and Mistral for this task. The code for each model is separate: `canine.ipynb`, `t5.ipynb`, `bert.ipynb` and for Mistral, `mistral_baseline` for zero-shot inference and `mistral_fewshot` for few-shot inference.
@@ -26,3 +26,4 @@ The models are loaded from HuggingFace directly. For Mistral-7B,**you will need 
 #### Training and Evaluation
 
 We performed a train-test split on the data and evaluated on the model accuracy on test set. The training and testing part are similar for all these notebooks and should be straightforward. After loading the data and the model, you can execute the train/test block to see the results.
+
